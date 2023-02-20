@@ -1,0 +1,38 @@
+{
+  "name": "pill-reminder",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.11",
+    "@react-navigation/native": "^6.1.4",
+    "@react-navigation/native-stack": "^6.9.10",
+    "@reduxjs/toolkit": "^1.9.2",
+    "alarm": "^2.0.0",
+    "core-js": "^3.28.0",
+    "expo": "~47.0.12",
+    "expo-font": "~11.0.1",
+    "expo-status-bar": "~1.4.2",
+    "moment": "^2.29.4",
+    "react": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-dropdown-picker": "^5.4.4",
+    "react-native-safe-area-context": "4.4.1",
+    "react-native-screens": "~3.18.0",
+    "react-native-vector-icons": "^9.2.0",
+    "react-redux": "^8.0.5",
+    "react-uuid": "^2.0.0",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
